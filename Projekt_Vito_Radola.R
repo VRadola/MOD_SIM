@@ -12,11 +12,10 @@
 # ============================================================
 
 # --- 1. Ucitavanje podataka ---------------------------------
-race_results  <- read.csv("f1_2024_data/race_results.csv")
-qualifying    <- read.csv("f1_2024_data/qualifying_results.csv")
-circuits      <- read.csv("f1_2024_data/circuits.csv")
-sprint        <- read.csv("f1_2024_data/sprint_results.csv")
-sprint_quali  <- read.csv("f1_2024_data/sprint_qualifying_results.csv")
+race_results <- read.csv("f1_2024_data/race_results.csv")
+qualifying   <- read.csv("f1_2024_data/qualifying_results.csv")
+circuits     <- read.csv("f1_2024_data/circuits.csv")
+sprint       <- read.csv("f1_2024_data/sprint_results.csv")
 
 # Spoj rezultata utrke i kvalifikacija (kljuc: krug + vozac).
 # suffixes razdvaja istoimene stupce (Position -> Position.race / .quali).
@@ -70,10 +69,6 @@ df$finish_pos <- poz_u_broj(df$Position.race)
 sprint$finish_pos <- poz_u_broj(sprint$Position)
 n_sprint <- length(unique(sprint$Round))
 
-# Kvalifikacijske (startne) pozicije - za utrke i za sprinteve.
-qualifying$grid_pos   <- poz_u_broj(qualifying$Position)
-sprint_quali$grid_pos <- poz_u_broj(sprint_quali$Position)
-
 str(df[, c("Round", "Driver", "Team.race", "finish_pos",
            "Position.quali", "q3_sec", "pole_position", "fastest_lap")])
 
@@ -97,17 +92,6 @@ for (v in glavni_vozaci) {
 }
 sprint_profili <- sprint_profili[names(profili)]   # isti redoslijed
 
-# Profili startnih pozicija (kvalifikacije). Sluze za "tezinu" -
-# laksa je pobjeda s pole positiona nego s zacelja.
-napravi_profil <- function(podaci, stupac_pozicije) {
-  pod <- podaci[podaci$Driver %in% glavni_vozaci, ]
-  pr <- split(pod[[stupac_pozicije]], pod$Driver)
-  for (v in glavni_vozaci) if (is.null(pr[[v]])) pr[[v]] <- DNF_POS
-  pr[names(profili)]
-}
-quali_profili        <- napravi_profil(qualifying, "grid_pos")
-sprint_quali_profili <- napravi_profil(sprint_quali, "grid_pos")
-
 cat("\nUkljuceno vozaca:", length(profili),
     "| izostavljeno (zamjenski):",
     paste(setdiff(names(broj_utrka), glavni_vozaci), collapse = ", "), "\n")
@@ -123,58 +107,41 @@ bodovanje[1:10] <- c(25, 18, 15, 12, 10, 8, 6, 4, 2, 1)
 bodovanje_sprint <- rep(0, n_vozaca)
 bodovanje_sprint[1:8] <- c(8, 7, 6, 5, 4, 3, 2, 1)
 
-# Koliko startna (kvalifikacijska) pozicija utjece na ishod natjecanja.
-# 0   = ishod ovisi samo o profilu zavrsnih pozicija (staro ponasanje)
-# 1   = ishod ovisi samo o startnoj poziciji
-# 0.35 = mjesavina (start se uzima u obzir, ali ne dominira).
-tezina_kvalifikacija <- 0.35
-
 # --- 5. Simulacija jedne sezone -----------------------------
-# Jedno "natjecanje": svaki vozac izvuce zavrsnu poziciju iz svog profila
-# I startnu poziciju iz kvalifikacijskog profila. Konacni "rezultat" je
-# tezinska mjesavina to dvoje (w = tezina starta) - tako bolji start
-# povlaci vozaca prema naprijed. Zatim se rangira i dijele bodovi.
-odradi_natjecanje <- function(finish_profili, quali_profili, bodovi, vozaci, ukupni, w) {
-  izvuceni_finish <- sapply(finish_profili, function(p) sample(p, 1))
-  izvuceni_start  <- sapply(quali_profili,  function(p) sample(p, 1))
-  skor <- (1 - w) * izvuceni_finish + w * izvuceni_start
-  poredak <- order(skor, runif(length(skor)))  # ties = nasumicno
+# Jedno "natjecanje": svaki vozac izvuce rezultat iz svog profila,
+# rangira se, i dobije bodove po zadanom bodovnom sustavu.
+odradi_natjecanje <- function(profili, bodovi, vozaci, ukupni) {
+  izvucene <- sapply(profili, function(p) sample(p, 1))
+  poredak <- order(izvucene, runif(length(izvucene)))  # ties = nasumicno
   ukupni[vozaci[poredak]] <- ukupni[vozaci[poredak]] + bodovi[seq_along(poredak)]
   ukupni
 }
 
-simuliraj_sezonu <- function(profili, quali_profili,
-                             sprint_profili, sprint_quali_profili,
-                             w = 0.35, n_utrka = 24, n_sprint = 6) {
+simuliraj_sezonu <- function(profili, sprint_profili, n_utrka = 24, n_sprint = 6) {
   vozaci <- names(profili)
   ukupni_bodovi <- setNames(rep(0, length(vozaci)), vozaci)
 
-  # Glavne utrke (zavrsni profil + kvalifikacije)
+  # Glavne utrke
   for (utrka in 1:n_utrka) {
-    ukupni_bodovi <- odradi_natjecanje(profili, quali_profili,
-                                       bodovanje, vozaci, ukupni_bodovi, w)
+    ukupni_bodovi <- odradi_natjecanje(profili, bodovanje, vozaci, ukupni_bodovi)
   }
-  # Sprint utrke (sprint profil + sprint kvalifikacije)
+  # Sprint utrke
   for (s in seq_len(n_sprint)) {
-    ukupni_bodovi <- odradi_natjecanje(sprint_profili, sprint_quali_profili,
-                                       bodovanje_sprint, vozaci, ukupni_bodovi, w)
+    ukupni_bodovi <- odradi_natjecanje(sprint_profili, bodovanje_sprint, vozaci, ukupni_bodovi)
   }
   ukupni_bodovi
 }
 
 # Test - jedna sezona
 set.seed(42)
-cat("\nPrimjer jedne simulirane sezone (utrke + sprintevi, s tezinom starta):\n")
-print(sort(simuliraj_sezonu(profili, quali_profili, sprint_profili, sprint_quali_profili,
-                            w = tezina_kvalifikacija, n_sprint = n_sprint), decreasing = TRUE))
+cat("\nPrimjer jedne simulirane sezone (utrke + sprintevi):\n")
+print(sort(simuliraj_sezonu(profili, sprint_profili, n_sprint = n_sprint), decreasing = TRUE))
 
 # --- 6. Mnogo simulacija ------------------------------------
 set.seed(42)
 n_simulacija <- 50000   # povecaj za stabilnije procjene (npr. 1e6)
 
-rezultati <- replicate(n_simulacija, simuliraj_sezonu(
-  profili, quali_profili, sprint_profili, sprint_quali_profili,
-  w = tezina_kvalifikacija, n_sprint = n_sprint))
+rezultati <- replicate(n_simulacija, simuliraj_sezonu(profili, sprint_profili, n_sprint = n_sprint))
 # rezultati: matrica [vozac x simulacija]
 
 # Pobjednik svake sezone = vozac s najvise bodova.
