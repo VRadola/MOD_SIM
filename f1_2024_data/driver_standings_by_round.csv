@@ -1,0 +1,520 @@
+Round,GP Name,Position,Driver No,Driver,Points,Championship Won
+1,Gulf Air Bahrain GP,1,1,Max Verstappen,26,false
+1,Gulf Air Bahrain GP,2,11,Sergio Perez,18,false
+1,Gulf Air Bahrain GP,3,55,Carlos Sainz,15,false
+1,Gulf Air Bahrain GP,4,16,Charles Leclerc,12,false
+1,Gulf Air Bahrain GP,5,63,George Russell,10,false
+1,Gulf Air Bahrain GP,6,4,Lando Norris,8,false
+1,Gulf Air Bahrain GP,7,44,Lewis Hamilton,6,false
+1,Gulf Air Bahrain GP,8,81,Oscar Piastri,4,false
+1,Gulf Air Bahrain GP,9,14,Fernando Alonso,2,false
+1,Gulf Air Bahrain GP,10,18,Lance Stroll,1,false
+1,Gulf Air Bahrain GP,11,24,Guanyu Zhou,0,false
+1,Gulf Air Bahrain GP,12,20,Kevin Magnussen,0,false
+1,Gulf Air Bahrain GP,13,3,Daniel Ricciardo,0,false
+1,Gulf Air Bahrain GP,14,22,Yuki Tsunoda,0,false
+1,Gulf Air Bahrain GP,15,23,Alexander Albon,0,false
+1,Gulf Air Bahrain GP,16,27,Nico Hulkenberg,0,false
+1,Gulf Air Bahrain GP,17,31,Esteban Ocon,0,false
+1,Gulf Air Bahrain GP,18,10,Pierre Gasly,0,false
+1,Gulf Air Bahrain GP,19,77,Valtteri Bottas,0,false
+1,Gulf Air Bahrain GP,20,2,Logan Sargeant,0,false
+2,STC Saudi Arabian GP,1,1,Max Verstappen,51,false
+2,STC Saudi Arabian GP,2,11,Sergio Perez,36,false
+2,STC Saudi Arabian GP,3,16,Charles Leclerc,28,false
+2,STC Saudi Arabian GP,4,63,George Russell,18,false
+2,STC Saudi Arabian GP,5,81,Oscar Piastri,16,false
+2,STC Saudi Arabian GP,6,55,Carlos Sainz,15,false
+2,STC Saudi Arabian GP,7,14,Fernando Alonso,12,false
+2,STC Saudi Arabian GP,8,4,Lando Norris,12,false
+2,STC Saudi Arabian GP,9,44,Lewis Hamilton,8,false
+2,STC Saudi Arabian GP,10,50,Oliver Bearman,6,false
+2,STC Saudi Arabian GP,11,27,Nico Hulkenberg,1,false
+2,STC Saudi Arabian GP,12,18,Lance Stroll,1,false
+2,STC Saudi Arabian GP,13,23,Alexander Albon,0,false
+2,STC Saudi Arabian GP,14,24,Guanyu Zhou,0,false
+2,STC Saudi Arabian GP,15,20,Kevin Magnussen,0,false
+2,STC Saudi Arabian GP,16,3,Daniel Ricciardo,0,false
+2,STC Saudi Arabian GP,17,31,Esteban Ocon,0,false
+2,STC Saudi Arabian GP,18,22,Yuki Tsunoda,0,false
+2,STC Saudi Arabian GP,19,2,Logan Sargeant,0,false
+2,STC Saudi Arabian GP,20,77,Valtteri Bottas,0,false
+2,STC Saudi Arabian GP,21,10,Pierre Gasly,0,false
+3,Rolex Australian GP,1,1,Max Verstappen,51,false
+3,Rolex Australian GP,2,16,Charles Leclerc,47,false
+3,Rolex Australian GP,3,11,Sergio Perez,46,false
+3,Rolex Australian GP,4,55,Carlos Sainz,40,false
+3,Rolex Australian GP,5,81,Oscar Piastri,28,false
+3,Rolex Australian GP,6,4,Lando Norris,27,false
+3,Rolex Australian GP,7,63,George Russell,18,false
+3,Rolex Australian GP,8,14,Fernando Alonso,16,false
+3,Rolex Australian GP,9,18,Lance Stroll,9,false
+3,Rolex Australian GP,10,44,Lewis Hamilton,8,false
+3,Rolex Australian GP,11,22,Yuki Tsunoda,6,false
+3,Rolex Australian GP,12,50,Oliver Bearman,6,false
+3,Rolex Australian GP,13,27,Nico Hulkenberg,3,false
+3,Rolex Australian GP,14,20,Kevin Magnussen,1,false
+3,Rolex Australian GP,15,23,Alexander Albon,0,false
+3,Rolex Australian GP,16,24,Guanyu Zhou,0,false
+3,Rolex Australian GP,17,3,Daniel Ricciardo,0,false
+3,Rolex Australian GP,18,31,Esteban Ocon,0,false
+3,Rolex Australian GP,19,10,Pierre Gasly,0,false
+3,Rolex Australian GP,20,77,Valtteri Bottas,0,false
+3,Rolex Australian GP,21,2,Logan Sargeant,0,false
+4,MSC Cruises Japanese GP,1,1,Max Verstappen,77,false
+4,MSC Cruises Japanese GP,2,11,Sergio Perez,64,false
+4,MSC Cruises Japanese GP,3,16,Charles Leclerc,59,false
+4,MSC Cruises Japanese GP,4,55,Carlos Sainz,55,false
+4,MSC Cruises Japanese GP,5,4,Lando Norris,37,false
+4,MSC Cruises Japanese GP,6,81,Oscar Piastri,32,false
+4,MSC Cruises Japanese GP,7,63,George Russell,24,false
+4,MSC Cruises Japanese GP,8,14,Fernando Alonso,24,false
+4,MSC Cruises Japanese GP,9,44,Lewis Hamilton,10,false
+4,MSC Cruises Japanese GP,10,18,Lance Stroll,9,false
+4,MSC Cruises Japanese GP,11,22,Yuki Tsunoda,7,false
+4,MSC Cruises Japanese GP,12,50,Oliver Bearman,6,false
+4,MSC Cruises Japanese GP,13,27,Nico Hulkenberg,3,false
+4,MSC Cruises Japanese GP,14,20,Kevin Magnussen,1,false
+4,MSC Cruises Japanese GP,15,23,Alexander Albon,0,false
+4,MSC Cruises Japanese GP,16,24,Guanyu Zhou,0,false
+4,MSC Cruises Japanese GP,17,3,Daniel Ricciardo,0,false
+4,MSC Cruises Japanese GP,18,31,Esteban Ocon,0,false
+4,MSC Cruises Japanese GP,19,10,Pierre Gasly,0,false
+4,MSC Cruises Japanese GP,20,77,Valtteri Bottas,0,false
+4,MSC Cruises Japanese GP,21,2,Logan Sargeant,0,false
+5,Lenovo Chinese GP,1,1,Max Verstappen,110,false
+5,Lenovo Chinese GP,2,11,Sergio Perez,85,false
+5,Lenovo Chinese GP,3,16,Charles Leclerc,76,false
+5,Lenovo Chinese GP,4,55,Carlos Sainz,69,false
+5,Lenovo Chinese GP,5,4,Lando Norris,58,false
+5,Lenovo Chinese GP,6,81,Oscar Piastri,38,false
+5,Lenovo Chinese GP,7,63,George Russell,33,false
+5,Lenovo Chinese GP,8,14,Fernando Alonso,31,false
+5,Lenovo Chinese GP,9,44,Lewis Hamilton,19,false
+5,Lenovo Chinese GP,10,18,Lance Stroll,9,false
+5,Lenovo Chinese GP,11,22,Yuki Tsunoda,7,false
+5,Lenovo Chinese GP,12,50,Oliver Bearman,6,false
+5,Lenovo Chinese GP,13,27,Nico Hulkenberg,4,false
+5,Lenovo Chinese GP,14,20,Kevin Magnussen,1,false
+5,Lenovo Chinese GP,15,23,Alexander Albon,0,false
+5,Lenovo Chinese GP,16,31,Esteban Ocon,0,false
+5,Lenovo Chinese GP,17,24,Guanyu Zhou,0,false
+5,Lenovo Chinese GP,18,3,Daniel Ricciardo,0,false
+5,Lenovo Chinese GP,19,10,Pierre Gasly,0,false
+5,Lenovo Chinese GP,20,77,Valtteri Bottas,0,false
+5,Lenovo Chinese GP,21,2,Logan Sargeant,0,false
+6,Crypto.com Miami GP,1,1,Max Verstappen,136,false
+6,Crypto.com Miami GP,2,11,Sergio Perez,103,false
+6,Crypto.com Miami GP,3,16,Charles Leclerc,98,false
+6,Crypto.com Miami GP,4,4,Lando Norris,83,false
+6,Crypto.com Miami GP,5,55,Carlos Sainz,83,false
+6,Crypto.com Miami GP,6,81,Oscar Piastri,41,false
+6,Crypto.com Miami GP,7,63,George Russell,37,false
+6,Crypto.com Miami GP,8,14,Fernando Alonso,33,false
+6,Crypto.com Miami GP,9,44,Lewis Hamilton,27,false
+6,Crypto.com Miami GP,10,22,Yuki Tsunoda,14,false
+6,Crypto.com Miami GP,11,18,Lance Stroll,9,false
+6,Crypto.com Miami GP,12,50,Oliver Bearman,6,false
+6,Crypto.com Miami GP,13,27,Nico Hulkenberg,6,false
+6,Crypto.com Miami GP,14,3,Daniel Ricciardo,5,false
+6,Crypto.com Miami GP,15,31,Esteban Ocon,1,false
+6,Crypto.com Miami GP,16,20,Kevin Magnussen,1,false
+6,Crypto.com Miami GP,17,23,Alexander Albon,0,false
+6,Crypto.com Miami GP,18,24,Guanyu Zhou,0,false
+6,Crypto.com Miami GP,19,10,Pierre Gasly,0,false
+6,Crypto.com Miami GP,20,77,Valtteri Bottas,0,false
+6,Crypto.com Miami GP,21,2,Logan Sargeant,0,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,1,1,Max Verstappen,161,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,2,16,Charles Leclerc,113,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,3,11,Sergio Perez,107,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,4,4,Lando Norris,101,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,5,55,Carlos Sainz,93,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,6,81,Oscar Piastri,53,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,7,63,George Russell,44,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,8,44,Lewis Hamilton,35,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,9,14,Fernando Alonso,33,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,10,22,Yuki Tsunoda,15,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,11,18,Lance Stroll,11,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,12,50,Oliver Bearman,6,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,13,27,Nico Hulkenberg,6,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,14,3,Daniel Ricciardo,5,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,15,31,Esteban Ocon,1,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,16,20,Kevin Magnussen,1,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,17,23,Alexander Albon,0,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,18,24,Guanyu Zhou,0,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,19,10,Pierre Gasly,0,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,20,77,Valtteri Bottas,0,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,21,2,Logan Sargeant,0,false
+8,Grand Prix de Monaco,1,1,Max Verstappen,169,false
+8,Grand Prix de Monaco,2,16,Charles Leclerc,138,false
+8,Grand Prix de Monaco,3,4,Lando Norris,113,false
+8,Grand Prix de Monaco,4,55,Carlos Sainz,108,false
+8,Grand Prix de Monaco,5,11,Sergio Perez,107,false
+8,Grand Prix de Monaco,6,81,Oscar Piastri,71,false
+8,Grand Prix de Monaco,7,63,George Russell,54,false
+8,Grand Prix de Monaco,8,44,Lewis Hamilton,42,false
+8,Grand Prix de Monaco,9,14,Fernando Alonso,33,false
+8,Grand Prix de Monaco,10,22,Yuki Tsunoda,19,false
+8,Grand Prix de Monaco,11,18,Lance Stroll,11,false
+8,Grand Prix de Monaco,12,50,Oliver Bearman,6,false
+8,Grand Prix de Monaco,13,27,Nico Hulkenberg,6,false
+8,Grand Prix de Monaco,14,3,Daniel Ricciardo,5,false
+8,Grand Prix de Monaco,15,23,Alexander Albon,2,false
+8,Grand Prix de Monaco,16,31,Esteban Ocon,1,false
+8,Grand Prix de Monaco,17,20,Kevin Magnussen,1,false
+8,Grand Prix de Monaco,18,10,Pierre Gasly,1,false
+8,Grand Prix de Monaco,19,24,Guanyu Zhou,0,false
+8,Grand Prix de Monaco,20,77,Valtteri Bottas,0,false
+8,Grand Prix de Monaco,21,2,Logan Sargeant,0,false
+9,AWS Grand Prix du Canada,1,1,Max Verstappen,194,false
+9,AWS Grand Prix du Canada,2,16,Charles Leclerc,138,false
+9,AWS Grand Prix du Canada,3,4,Lando Norris,131,false
+9,AWS Grand Prix du Canada,4,55,Carlos Sainz,108,false
+9,AWS Grand Prix du Canada,5,11,Sergio Perez,107,false
+9,AWS Grand Prix du Canada,6,81,Oscar Piastri,81,false
+9,AWS Grand Prix du Canada,7,63,George Russell,69,false
+9,AWS Grand Prix du Canada,8,44,Lewis Hamilton,55,false
+9,AWS Grand Prix du Canada,9,14,Fernando Alonso,41,false
+9,AWS Grand Prix du Canada,10,22,Yuki Tsunoda,19,false
+9,AWS Grand Prix du Canada,11,18,Lance Stroll,17,false
+9,AWS Grand Prix du Canada,12,3,Daniel Ricciardo,9,false
+9,AWS Grand Prix du Canada,13,50,Oliver Bearman,6,false
+9,AWS Grand Prix du Canada,14,27,Nico Hulkenberg,6,false
+9,AWS Grand Prix du Canada,15,10,Pierre Gasly,3,false
+9,AWS Grand Prix du Canada,16,23,Alexander Albon,2,false
+9,AWS Grand Prix du Canada,17,31,Esteban Ocon,2,false
+9,AWS Grand Prix du Canada,18,20,Kevin Magnussen,1,false
+9,AWS Grand Prix du Canada,19,24,Guanyu Zhou,0,false
+9,AWS Grand Prix du Canada,20,77,Valtteri Bottas,0,false
+9,AWS Grand Prix du Canada,21,2,Logan Sargeant,0,false
+10,Aramco Gran Premio de España,1,1,Max Verstappen,219,false
+10,Aramco Gran Premio de España,2,4,Lando Norris,150,false
+10,Aramco Gran Premio de España,3,16,Charles Leclerc,148,false
+10,Aramco Gran Premio de España,4,55,Carlos Sainz,116,false
+10,Aramco Gran Premio de España,5,11,Sergio Perez,111,false
+10,Aramco Gran Premio de España,6,81,Oscar Piastri,87,false
+10,Aramco Gran Premio de España,7,63,George Russell,81,false
+10,Aramco Gran Premio de España,8,44,Lewis Hamilton,70,false
+10,Aramco Gran Premio de España,9,14,Fernando Alonso,41,false
+10,Aramco Gran Premio de España,10,22,Yuki Tsunoda,19,false
+10,Aramco Gran Premio de España,11,18,Lance Stroll,17,false
+10,Aramco Gran Premio de España,12,3,Daniel Ricciardo,9,false
+10,Aramco Gran Premio de España,13,50,Oliver Bearman,6,false
+10,Aramco Gran Premio de España,14,27,Nico Hulkenberg,6,false
+10,Aramco Gran Premio de España,15,10,Pierre Gasly,5,false
+10,Aramco Gran Premio de España,16,31,Esteban Ocon,3,false
+10,Aramco Gran Premio de España,17,23,Alexander Albon,2,false
+10,Aramco Gran Premio de España,18,20,Kevin Magnussen,1,false
+10,Aramco Gran Premio de España,19,24,Guanyu Zhou,0,false
+10,Aramco Gran Premio de España,20,77,Valtteri Bottas,0,false
+10,Aramco Gran Premio de España,21,2,Logan Sargeant,0,false
+11,Qatar Airways Austrian GP,1,1,Max Verstappen,237,false
+11,Qatar Airways Austrian GP,2,4,Lando Norris,156,false
+11,Qatar Airways Austrian GP,3,16,Charles Leclerc,150,false
+11,Qatar Airways Austrian GP,4,55,Carlos Sainz,135,false
+11,Qatar Airways Austrian GP,5,11,Sergio Perez,118,false
+11,Qatar Airways Austrian GP,6,81,Oscar Piastri,112,false
+11,Qatar Airways Austrian GP,7,63,George Russell,111,false
+11,Qatar Airways Austrian GP,8,44,Lewis Hamilton,85,false
+11,Qatar Airways Austrian GP,9,14,Fernando Alonso,41,false
+11,Qatar Airways Austrian GP,10,22,Yuki Tsunoda,19,false
+11,Qatar Airways Austrian GP,11,18,Lance Stroll,17,false
+11,Qatar Airways Austrian GP,12,27,Nico Hulkenberg,14,false
+11,Qatar Airways Austrian GP,13,3,Daniel Ricciardo,11,false
+11,Qatar Airways Austrian GP,14,50,Oliver Bearman,6,false
+11,Qatar Airways Austrian GP,15,10,Pierre Gasly,6,false
+11,Qatar Airways Austrian GP,16,20,Kevin Magnussen,5,false
+11,Qatar Airways Austrian GP,17,31,Esteban Ocon,3,false
+11,Qatar Airways Austrian GP,18,23,Alexander Albon,2,false
+11,Qatar Airways Austrian GP,19,24,Guanyu Zhou,0,false
+11,Qatar Airways Austrian GP,20,77,Valtteri Bottas,0,false
+11,Qatar Airways Austrian GP,21,2,Logan Sargeant,0,false
+12,Qatar Airways British GP,1,1,Max Verstappen,255,false
+12,Qatar Airways British GP,2,4,Lando Norris,171,false
+12,Qatar Airways British GP,3,16,Charles Leclerc,150,false
+12,Qatar Airways British GP,4,55,Carlos Sainz,146,false
+12,Qatar Airways British GP,5,81,Oscar Piastri,124,false
+12,Qatar Airways British GP,6,11,Sergio Perez,118,false
+12,Qatar Airways British GP,7,63,George Russell,111,false
+12,Qatar Airways British GP,8,44,Lewis Hamilton,110,false
+12,Qatar Airways British GP,9,14,Fernando Alonso,45,false
+12,Qatar Airways British GP,10,18,Lance Stroll,23,false
+12,Qatar Airways British GP,11,27,Nico Hulkenberg,22,false
+12,Qatar Airways British GP,12,22,Yuki Tsunoda,20,false
+12,Qatar Airways British GP,13,3,Daniel Ricciardo,11,false
+12,Qatar Airways British GP,14,50,Oliver Bearman,6,false
+12,Qatar Airways British GP,15,10,Pierre Gasly,6,false
+12,Qatar Airways British GP,16,20,Kevin Magnussen,5,false
+12,Qatar Airways British GP,17,23,Alexander Albon,4,false
+12,Qatar Airways British GP,18,31,Esteban Ocon,3,false
+12,Qatar Airways British GP,19,24,Guanyu Zhou,0,false
+12,Qatar Airways British GP,20,2,Logan Sargeant,0,false
+12,Qatar Airways British GP,21,77,Valtteri Bottas,0,false
+13,Hungarian GP,1,1,Max Verstappen,265,false
+13,Hungarian GP,2,4,Lando Norris,189,false
+13,Hungarian GP,3,16,Charles Leclerc,162,false
+13,Hungarian GP,4,55,Carlos Sainz,154,false
+13,Hungarian GP,5,81,Oscar Piastri,149,false
+13,Hungarian GP,6,44,Lewis Hamilton,125,false
+13,Hungarian GP,7,11,Sergio Perez,124,false
+13,Hungarian GP,8,63,George Russell,116,false
+13,Hungarian GP,9,14,Fernando Alonso,45,false
+13,Hungarian GP,10,18,Lance Stroll,24,false
+13,Hungarian GP,11,27,Nico Hulkenberg,22,false
+13,Hungarian GP,12,22,Yuki Tsunoda,22,false
+13,Hungarian GP,13,3,Daniel Ricciardo,11,false
+13,Hungarian GP,14,50,Oliver Bearman,6,false
+13,Hungarian GP,15,10,Pierre Gasly,6,false
+13,Hungarian GP,16,20,Kevin Magnussen,5,false
+13,Hungarian GP,17,23,Alexander Albon,4,false
+13,Hungarian GP,18,31,Esteban Ocon,3,false
+13,Hungarian GP,19,24,Guanyu Zhou,0,false
+13,Hungarian GP,20,2,Logan Sargeant,0,false
+13,Hungarian GP,21,77,Valtteri Bottas,0,false
+14,Rolex Belgian GP,1,1,Max Verstappen,277,false
+14,Rolex Belgian GP,2,4,Lando Norris,199,false
+14,Rolex Belgian GP,3,16,Charles Leclerc,177,false
+14,Rolex Belgian GP,4,81,Oscar Piastri,167,false
+14,Rolex Belgian GP,5,55,Carlos Sainz,162,false
+14,Rolex Belgian GP,6,44,Lewis Hamilton,150,false
+14,Rolex Belgian GP,7,11,Sergio Perez,131,false
+14,Rolex Belgian GP,8,63,George Russell,116,false
+14,Rolex Belgian GP,9,14,Fernando Alonso,49,false
+14,Rolex Belgian GP,10,18,Lance Stroll,24,false
+14,Rolex Belgian GP,11,27,Nico Hulkenberg,22,false
+14,Rolex Belgian GP,12,22,Yuki Tsunoda,22,false
+14,Rolex Belgian GP,13,3,Daniel Ricciardo,12,false
+14,Rolex Belgian GP,14,50,Oliver Bearman,6,false
+14,Rolex Belgian GP,15,10,Pierre Gasly,6,false
+14,Rolex Belgian GP,16,20,Kevin Magnussen,5,false
+14,Rolex Belgian GP,17,31,Esteban Ocon,5,false
+14,Rolex Belgian GP,18,23,Alexander Albon,4,false
+14,Rolex Belgian GP,19,24,Guanyu Zhou,0,false
+14,Rolex Belgian GP,20,2,Logan Sargeant,0,false
+14,Rolex Belgian GP,21,77,Valtteri Bottas,0,false
+15,Heineken Dutch GP,1,1,Max Verstappen,295,false
+15,Heineken Dutch GP,2,4,Lando Norris,225,false
+15,Heineken Dutch GP,3,16,Charles Leclerc,192,false
+15,Heineken Dutch GP,4,81,Oscar Piastri,179,false
+15,Heineken Dutch GP,5,55,Carlos Sainz,172,false
+15,Heineken Dutch GP,6,44,Lewis Hamilton,154,false
+15,Heineken Dutch GP,7,11,Sergio Perez,139,false
+15,Heineken Dutch GP,8,63,George Russell,122,false
+15,Heineken Dutch GP,9,14,Fernando Alonso,50,false
+15,Heineken Dutch GP,10,18,Lance Stroll,24,false
+15,Heineken Dutch GP,11,27,Nico Hulkenberg,22,false
+15,Heineken Dutch GP,12,22,Yuki Tsunoda,22,false
+15,Heineken Dutch GP,13,3,Daniel Ricciardo,12,false
+15,Heineken Dutch GP,14,10,Pierre Gasly,8,false
+15,Heineken Dutch GP,15,50,Oliver Bearman,6,false
+15,Heineken Dutch GP,16,20,Kevin Magnussen,5,false
+15,Heineken Dutch GP,17,31,Esteban Ocon,5,false
+15,Heineken Dutch GP,18,23,Alexander Albon,4,false
+15,Heineken Dutch GP,19,24,Guanyu Zhou,0,false
+15,Heineken Dutch GP,20,2,Logan Sargeant,0,false
+15,Heineken Dutch GP,21,77,Valtteri Bottas,0,false
+16,Pirelli Gran Premio D'Italia,1,1,Max Verstappen,303,false
+16,Pirelli Gran Premio D'Italia,2,4,Lando Norris,241,false
+16,Pirelli Gran Premio D'Italia,3,16,Charles Leclerc,217,false
+16,Pirelli Gran Premio D'Italia,4,81,Oscar Piastri,197,false
+16,Pirelli Gran Premio D'Italia,5,55,Carlos Sainz,184,false
+16,Pirelli Gran Premio D'Italia,6,44,Lewis Hamilton,164,false
+16,Pirelli Gran Premio D'Italia,7,11,Sergio Perez,143,false
+16,Pirelli Gran Premio D'Italia,8,63,George Russell,128,false
+16,Pirelli Gran Premio D'Italia,9,14,Fernando Alonso,50,false
+16,Pirelli Gran Premio D'Italia,10,18,Lance Stroll,24,false
+16,Pirelli Gran Premio D'Italia,11,27,Nico Hulkenberg,22,false
+16,Pirelli Gran Premio D'Italia,12,22,Yuki Tsunoda,22,false
+16,Pirelli Gran Premio D'Italia,13,3,Daniel Ricciardo,12,false
+16,Pirelli Gran Premio D'Italia,14,10,Pierre Gasly,8,false
+16,Pirelli Gran Premio D'Italia,15,50,Oliver Bearman,6,false
+16,Pirelli Gran Premio D'Italia,16,20,Kevin Magnussen,6,false
+16,Pirelli Gran Premio D'Italia,17,23,Alexander Albon,6,false
+16,Pirelli Gran Premio D'Italia,18,31,Esteban Ocon,5,false
+16,Pirelli Gran Premio D'Italia,19,24,Guanyu Zhou,0,false
+16,Pirelli Gran Premio D'Italia,20,2,Logan Sargeant,0,false
+16,Pirelli Gran Premio D'Italia,21,43,Franco Colapinto,0,false
+16,Pirelli Gran Premio D'Italia,22,77,Valtteri Bottas,0,false
+17,Qatar Airways Azerbaijan GP,1,1,Max Verstappen,313,false
+17,Qatar Airways Azerbaijan GP,2,4,Lando Norris,254,false
+17,Qatar Airways Azerbaijan GP,3,16,Charles Leclerc,235,false
+17,Qatar Airways Azerbaijan GP,4,81,Oscar Piastri,222,false
+17,Qatar Airways Azerbaijan GP,5,55,Carlos Sainz,184,false
+17,Qatar Airways Azerbaijan GP,6,44,Lewis Hamilton,166,false
+17,Qatar Airways Azerbaijan GP,7,63,George Russell,143,false
+17,Qatar Airways Azerbaijan GP,8,11,Sergio Perez,143,false
+17,Qatar Airways Azerbaijan GP,9,14,Fernando Alonso,58,false
+17,Qatar Airways Azerbaijan GP,10,18,Lance Stroll,24,false
+17,Qatar Airways Azerbaijan GP,11,27,Nico Hulkenberg,22,false
+17,Qatar Airways Azerbaijan GP,12,22,Yuki Tsunoda,22,false
+17,Qatar Airways Azerbaijan GP,13,23,Alexander Albon,12,false
+17,Qatar Airways Azerbaijan GP,14,3,Daniel Ricciardo,12,false
+17,Qatar Airways Azerbaijan GP,15,10,Pierre Gasly,8,false
+17,Qatar Airways Azerbaijan GP,16,50,Oliver Bearman,7,false
+17,Qatar Airways Azerbaijan GP,17,20,Kevin Magnussen,6,false
+17,Qatar Airways Azerbaijan GP,18,31,Esteban Ocon,5,false
+17,Qatar Airways Azerbaijan GP,19,43,Franco Colapinto,4,false
+17,Qatar Airways Azerbaijan GP,20,24,Guanyu Zhou,0,false
+17,Qatar Airways Azerbaijan GP,21,2,Logan Sargeant,0,false
+17,Qatar Airways Azerbaijan GP,22,77,Valtteri Bottas,0,false
+18,Singapore Airlines Singapore GP,1,1,Max Verstappen,331,false
+18,Singapore Airlines Singapore GP,2,4,Lando Norris,279,false
+18,Singapore Airlines Singapore GP,3,16,Charles Leclerc,245,false
+18,Singapore Airlines Singapore GP,4,81,Oscar Piastri,237,false
+18,Singapore Airlines Singapore GP,5,55,Carlos Sainz,190,false
+18,Singapore Airlines Singapore GP,6,44,Lewis Hamilton,174,false
+18,Singapore Airlines Singapore GP,7,63,George Russell,155,false
+18,Singapore Airlines Singapore GP,8,11,Sergio Perez,144,false
+18,Singapore Airlines Singapore GP,9,14,Fernando Alonso,62,false
+18,Singapore Airlines Singapore GP,10,27,Nico Hulkenberg,24,false
+18,Singapore Airlines Singapore GP,11,18,Lance Stroll,24,false
+18,Singapore Airlines Singapore GP,12,22,Yuki Tsunoda,22,false
+18,Singapore Airlines Singapore GP,13,23,Alexander Albon,12,false
+18,Singapore Airlines Singapore GP,14,3,Daniel Ricciardo,12,false
+18,Singapore Airlines Singapore GP,15,10,Pierre Gasly,8,false
+18,Singapore Airlines Singapore GP,16,50,Oliver Bearman,7,false
+18,Singapore Airlines Singapore GP,17,20,Kevin Magnussen,6,false
+18,Singapore Airlines Singapore GP,18,31,Esteban Ocon,5,false
+18,Singapore Airlines Singapore GP,19,43,Franco Colapinto,4,false
+18,Singapore Airlines Singapore GP,20,24,Guanyu Zhou,0,false
+18,Singapore Airlines Singapore GP,21,2,Logan Sargeant,0,false
+18,Singapore Airlines Singapore GP,22,77,Valtteri Bottas,0,false
+19,Pirelli United States GP,1,1,Max Verstappen,354,false
+19,Pirelli United States GP,2,4,Lando Norris,297,false
+19,Pirelli United States GP,3,16,Charles Leclerc,275,false
+19,Pirelli United States GP,4,81,Oscar Piastri,247,false
+19,Pirelli United States GP,5,55,Carlos Sainz,215,false
+19,Pirelli United States GP,6,44,Lewis Hamilton,177,false
+19,Pirelli United States GP,7,63,George Russell,167,false
+19,Pirelli United States GP,8,11,Sergio Perez,150,false
+19,Pirelli United States GP,9,14,Fernando Alonso,62,false
+19,Pirelli United States GP,10,27,Nico Hulkenberg,29,false
+19,Pirelli United States GP,11,18,Lance Stroll,24,false
+19,Pirelli United States GP,12,22,Yuki Tsunoda,22,false
+19,Pirelli United States GP,13,23,Alexander Albon,12,false
+19,Pirelli United States GP,14,3,Daniel Ricciardo,12,false
+19,Pirelli United States GP,15,20,Kevin Magnussen,8,false
+19,Pirelli United States GP,16,10,Pierre Gasly,8,false
+19,Pirelli United States GP,17,50,Oliver Bearman,7,false
+19,Pirelli United States GP,18,43,Franco Colapinto,5,false
+19,Pirelli United States GP,19,31,Esteban Ocon,5,false
+19,Pirelli United States GP,20,30,Liam Lawson,2,false
+19,Pirelli United States GP,21,24,Guanyu Zhou,0,false
+19,Pirelli United States GP,22,2,Logan Sargeant,0,false
+19,Pirelli United States GP,23,77,Valtteri Bottas,0,false
+20,Gran Premio de la Ciudad de México,1,1,Max Verstappen,362,false
+20,Gran Premio de la Ciudad de México,2,4,Lando Norris,315,false
+20,Gran Premio de la Ciudad de México,3,16,Charles Leclerc,291,false
+20,Gran Premio de la Ciudad de México,4,81,Oscar Piastri,251,false
+20,Gran Premio de la Ciudad de México,5,55,Carlos Sainz,240,false
+20,Gran Premio de la Ciudad de México,6,44,Lewis Hamilton,189,false
+20,Gran Premio de la Ciudad de México,7,63,George Russell,177,false
+20,Gran Premio de la Ciudad de México,8,11,Sergio Perez,150,false
+20,Gran Premio de la Ciudad de México,9,14,Fernando Alonso,62,false
+20,Gran Premio de la Ciudad de México,10,27,Nico Hulkenberg,31,false
+20,Gran Premio de la Ciudad de México,11,18,Lance Stroll,24,false
+20,Gran Premio de la Ciudad de México,12,22,Yuki Tsunoda,22,false
+20,Gran Premio de la Ciudad de México,13,20,Kevin Magnussen,14,false
+20,Gran Premio de la Ciudad de México,14,23,Alexander Albon,12,false
+20,Gran Premio de la Ciudad de México,15,3,Daniel Ricciardo,12,false
+20,Gran Premio de la Ciudad de México,16,10,Pierre Gasly,9,false
+20,Gran Premio de la Ciudad de México,17,50,Oliver Bearman,7,false
+20,Gran Premio de la Ciudad de México,18,43,Franco Colapinto,5,false
+20,Gran Premio de la Ciudad de México,19,31,Esteban Ocon,5,false
+20,Gran Premio de la Ciudad de México,20,30,Liam Lawson,2,false
+20,Gran Premio de la Ciudad de México,21,24,Guanyu Zhou,0,false
+20,Gran Premio de la Ciudad de México,22,2,Logan Sargeant,0,false
+20,Gran Premio de la Ciudad de México,23,77,Valtteri Bottas,0,false
+21,Lenovo Grande Prêmio de São Paulo,1,1,Max Verstappen,393,false
+21,Lenovo Grande Prêmio de São Paulo,2,4,Lando Norris,331,false
+21,Lenovo Grande Prêmio de São Paulo,3,16,Charles Leclerc,307,false
+21,Lenovo Grande Prêmio de São Paulo,4,81,Oscar Piastri,262,false
+21,Lenovo Grande Prêmio de São Paulo,5,55,Carlos Sainz,244,false
+21,Lenovo Grande Prêmio de São Paulo,6,63,George Russell,192,false
+21,Lenovo Grande Prêmio de São Paulo,7,44,Lewis Hamilton,190,false
+21,Lenovo Grande Prêmio de São Paulo,8,11,Sergio Perez,151,false
+21,Lenovo Grande Prêmio de São Paulo,9,14,Fernando Alonso,62,false
+21,Lenovo Grande Prêmio de São Paulo,10,27,Nico Hulkenberg,31,false
+21,Lenovo Grande Prêmio de São Paulo,11,22,Yuki Tsunoda,28,false
+21,Lenovo Grande Prêmio de São Paulo,12,10,Pierre Gasly,26,false
+21,Lenovo Grande Prêmio de São Paulo,13,18,Lance Stroll,24,false
+21,Lenovo Grande Prêmio de São Paulo,14,31,Esteban Ocon,23,false
+21,Lenovo Grande Prêmio de São Paulo,15,20,Kevin Magnussen,14,false
+21,Lenovo Grande Prêmio de São Paulo,16,23,Alexander Albon,12,false
+21,Lenovo Grande Prêmio de São Paulo,17,3,Daniel Ricciardo,12,false
+21,Lenovo Grande Prêmio de São Paulo,18,50,Oliver Bearman,7,false
+21,Lenovo Grande Prêmio de São Paulo,19,43,Franco Colapinto,5,false
+21,Lenovo Grande Prêmio de São Paulo,20,30,Liam Lawson,4,false
+21,Lenovo Grande Prêmio de São Paulo,21,24,Guanyu Zhou,0,false
+21,Lenovo Grande Prêmio de São Paulo,22,2,Logan Sargeant,0,false
+21,Lenovo Grande Prêmio de São Paulo,23,77,Valtteri Bottas,0,false
+22,Heineken Silver Las Vegas GP,1,1,Max Verstappen,403,true
+22,Heineken Silver Las Vegas GP,2,4,Lando Norris,340,false
+22,Heineken Silver Las Vegas GP,3,16,Charles Leclerc,319,false
+22,Heineken Silver Las Vegas GP,4,81,Oscar Piastri,268,false
+22,Heineken Silver Las Vegas GP,5,55,Carlos Sainz,259,false
+22,Heineken Silver Las Vegas GP,6,63,George Russell,217,false
+22,Heineken Silver Las Vegas GP,7,44,Lewis Hamilton,208,false
+22,Heineken Silver Las Vegas GP,8,11,Sergio Perez,152,false
+22,Heineken Silver Las Vegas GP,9,14,Fernando Alonso,62,false
+22,Heineken Silver Las Vegas GP,10,27,Nico Hulkenberg,35,false
+22,Heineken Silver Las Vegas GP,11,22,Yuki Tsunoda,30,false
+22,Heineken Silver Las Vegas GP,12,10,Pierre Gasly,26,false
+22,Heineken Silver Las Vegas GP,13,18,Lance Stroll,24,false
+22,Heineken Silver Las Vegas GP,14,31,Esteban Ocon,23,false
+22,Heineken Silver Las Vegas GP,15,20,Kevin Magnussen,14,false
+22,Heineken Silver Las Vegas GP,16,23,Alexander Albon,12,false
+22,Heineken Silver Las Vegas GP,17,3,Daniel Ricciardo,12,false
+22,Heineken Silver Las Vegas GP,18,50,Oliver Bearman,7,false
+22,Heineken Silver Las Vegas GP,19,43,Franco Colapinto,5,false
+22,Heineken Silver Las Vegas GP,20,30,Liam Lawson,4,false
+22,Heineken Silver Las Vegas GP,21,24,Guanyu Zhou,0,false
+22,Heineken Silver Las Vegas GP,22,2,Logan Sargeant,0,false
+22,Heineken Silver Las Vegas GP,23,77,Valtteri Bottas,0,false
+23,Qatar Airways Qatar GP,1,1,Max Verstappen,429,true
+23,Qatar Airways Qatar GP,2,4,Lando Norris,349,false
+23,Qatar Airways Qatar GP,3,16,Charles Leclerc,341,false
+23,Qatar Airways Qatar GP,4,81,Oscar Piastri,291,false
+23,Qatar Airways Qatar GP,5,55,Carlos Sainz,272,false
+23,Qatar Airways Qatar GP,6,63,George Russell,235,false
+23,Qatar Airways Qatar GP,7,44,Lewis Hamilton,211,false
+23,Qatar Airways Qatar GP,8,11,Sergio Perez,152,false
+23,Qatar Airways Qatar GP,9,14,Fernando Alonso,68,false
+23,Qatar Airways Qatar GP,10,27,Nico Hulkenberg,37,false
+23,Qatar Airways Qatar GP,11,10,Pierre Gasly,36,false
+23,Qatar Airways Qatar GP,12,22,Yuki Tsunoda,30,false
+23,Qatar Airways Qatar GP,13,18,Lance Stroll,24,false
+23,Qatar Airways Qatar GP,14,31,Esteban Ocon,23,false
+23,Qatar Airways Qatar GP,15,20,Kevin Magnussen,16,false
+23,Qatar Airways Qatar GP,16,23,Alexander Albon,12,false
+23,Qatar Airways Qatar GP,17,3,Daniel Ricciardo,12,false
+23,Qatar Airways Qatar GP,18,50,Oliver Bearman,7,false
+23,Qatar Airways Qatar GP,19,43,Franco Colapinto,5,false
+23,Qatar Airways Qatar GP,20,24,Guanyu Zhou,4,false
+23,Qatar Airways Qatar GP,21,30,Liam Lawson,4,false
+23,Qatar Airways Qatar GP,22,77,Valtteri Bottas,0,false
+23,Qatar Airways Qatar GP,23,2,Logan Sargeant,0,false
+24,Etihad Airways Abu Dhabi GP,1,1,Max Verstappen,437,true
+24,Etihad Airways Abu Dhabi GP,2,4,Lando Norris,374,false
+24,Etihad Airways Abu Dhabi GP,3,16,Charles Leclerc,356,false
+24,Etihad Airways Abu Dhabi GP,4,81,Oscar Piastri,292,false
+24,Etihad Airways Abu Dhabi GP,5,55,Carlos Sainz,290,false
+24,Etihad Airways Abu Dhabi GP,6,63,George Russell,245,false
+24,Etihad Airways Abu Dhabi GP,7,44,Lewis Hamilton,223,false
+24,Etihad Airways Abu Dhabi GP,8,11,Sergio Perez,152,false
+24,Etihad Airways Abu Dhabi GP,9,14,Fernando Alonso,70,false
+24,Etihad Airways Abu Dhabi GP,10,10,Pierre Gasly,42,false
+24,Etihad Airways Abu Dhabi GP,11,27,Nico Hulkenberg,41,false
+24,Etihad Airways Abu Dhabi GP,12,22,Yuki Tsunoda,30,false
+24,Etihad Airways Abu Dhabi GP,13,18,Lance Stroll,24,false
+24,Etihad Airways Abu Dhabi GP,14,31,Esteban Ocon,23,false
+24,Etihad Airways Abu Dhabi GP,15,20,Kevin Magnussen,16,false
+24,Etihad Airways Abu Dhabi GP,16,23,Alexander Albon,12,false
+24,Etihad Airways Abu Dhabi GP,17,3,Daniel Ricciardo,12,false
+24,Etihad Airways Abu Dhabi GP,18,50,Oliver Bearman,7,false
+24,Etihad Airways Abu Dhabi GP,19,43,Franco Colapinto,5,false
+24,Etihad Airways Abu Dhabi GP,20,24,Guanyu Zhou,4,false
+24,Etihad Airways Abu Dhabi GP,21,30,Liam Lawson,4,false
+24,Etihad Airways Abu Dhabi GP,22,77,Valtteri Bottas,0,false
+24,Etihad Airways Abu Dhabi GP,23,2,Logan Sargeant,0,false
+24,Etihad Airways Abu Dhabi GP,24,61,Jack Doohan,0,false

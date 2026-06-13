@@ -1,0 +1,241 @@
+Round,GP Name,Position,Team,Engine,Points,Championship Won
+1,Gulf Air Bahrain GP,1,Red Bull,honda-rbpt,44,false
+1,Gulf Air Bahrain GP,2,Ferrari,ferrari,27,false
+1,Gulf Air Bahrain GP,3,Mercedes,mercedes,16,false
+1,Gulf Air Bahrain GP,4,McLaren,mercedes,12,false
+1,Gulf Air Bahrain GP,5,Aston Martin,mercedes,3,false
+1,Gulf Air Bahrain GP,6,Kick Sauber,ferrari,0,false
+1,Gulf Air Bahrain GP,7,Haas,ferrari,0,false
+1,Gulf Air Bahrain GP,8,RB,honda-rbpt,0,false
+1,Gulf Air Bahrain GP,9,Williams,mercedes,0,false
+1,Gulf Air Bahrain GP,10,Alpine,renault,0,false
+2,STC Saudi Arabian GP,1,Red Bull,honda-rbpt,87,false
+2,STC Saudi Arabian GP,2,Ferrari,ferrari,49,false
+2,STC Saudi Arabian GP,3,McLaren,mercedes,28,false
+2,STC Saudi Arabian GP,4,Mercedes,mercedes,26,false
+2,STC Saudi Arabian GP,5,Aston Martin,mercedes,13,false
+2,STC Saudi Arabian GP,6,Haas,ferrari,1,false
+2,STC Saudi Arabian GP,7,Williams,mercedes,0,false
+2,STC Saudi Arabian GP,8,Kick Sauber,ferrari,0,false
+2,STC Saudi Arabian GP,9,RB,honda-rbpt,0,false
+2,STC Saudi Arabian GP,10,Alpine,renault,0,false
+3,Rolex Australian GP,1,Red Bull,honda-rbpt,97,false
+3,Rolex Australian GP,2,Ferrari,ferrari,93,false
+3,Rolex Australian GP,3,McLaren,mercedes,55,false
+3,Rolex Australian GP,4,Mercedes,mercedes,26,false
+3,Rolex Australian GP,5,Aston Martin,mercedes,25,false
+3,Rolex Australian GP,6,RB,honda-rbpt,6,false
+3,Rolex Australian GP,7,Haas,ferrari,4,false
+3,Rolex Australian GP,8,Williams,mercedes,0,false
+3,Rolex Australian GP,9,Kick Sauber,ferrari,0,false
+3,Rolex Australian GP,10,Alpine,renault,0,false
+4,MSC Cruises Japanese GP,1,Red Bull,honda-rbpt,141,false
+4,MSC Cruises Japanese GP,2,Ferrari,ferrari,120,false
+4,MSC Cruises Japanese GP,3,McLaren,mercedes,69,false
+4,MSC Cruises Japanese GP,4,Mercedes,mercedes,34,false
+4,MSC Cruises Japanese GP,5,Aston Martin,mercedes,33,false
+4,MSC Cruises Japanese GP,6,RB,honda-rbpt,7,false
+4,MSC Cruises Japanese GP,7,Haas,ferrari,4,false
+4,MSC Cruises Japanese GP,8,Williams,mercedes,0,false
+4,MSC Cruises Japanese GP,9,Kick Sauber,ferrari,0,false
+4,MSC Cruises Japanese GP,10,Alpine,renault,0,false
+5,Lenovo Chinese GP,1,Red Bull,honda-rbpt,195,false
+5,Lenovo Chinese GP,2,Ferrari,ferrari,151,false
+5,Lenovo Chinese GP,3,McLaren,mercedes,96,false
+5,Lenovo Chinese GP,4,Mercedes,mercedes,52,false
+5,Lenovo Chinese GP,5,Aston Martin,mercedes,40,false
+5,Lenovo Chinese GP,6,RB,honda-rbpt,7,false
+5,Lenovo Chinese GP,7,Haas,ferrari,5,false
+5,Lenovo Chinese GP,8,Williams,mercedes,0,false
+5,Lenovo Chinese GP,9,Alpine,renault,0,false
+5,Lenovo Chinese GP,10,Kick Sauber,ferrari,0,false
+6,Crypto.com Miami GP,1,Red Bull,honda-rbpt,239,false
+6,Crypto.com Miami GP,2,Ferrari,ferrari,187,false
+6,Crypto.com Miami GP,3,McLaren,mercedes,124,false
+6,Crypto.com Miami GP,4,Mercedes,mercedes,64,false
+6,Crypto.com Miami GP,5,Aston Martin,mercedes,42,false
+6,Crypto.com Miami GP,6,RB,honda-rbpt,19,false
+6,Crypto.com Miami GP,7,Haas,ferrari,7,false
+6,Crypto.com Miami GP,8,Alpine,renault,1,false
+6,Crypto.com Miami GP,9,Williams,mercedes,0,false
+6,Crypto.com Miami GP,10,Kick Sauber,ferrari,0,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,1,Red Bull,honda-rbpt,268,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,2,Ferrari,ferrari,212,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,3,McLaren,mercedes,154,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,4,Mercedes,mercedes,79,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,5,Aston Martin,mercedes,44,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,6,RB,honda-rbpt,20,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,7,Haas,ferrari,7,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,8,Alpine,renault,1,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,9,Williams,mercedes,0,false
+7,MSC Cruises Gran Premio Del Made in Italy e Dell'Emilia-Romagna,10,Kick Sauber,ferrari,0,false
+8,Grand Prix de Monaco,1,Red Bull,honda-rbpt,276,false
+8,Grand Prix de Monaco,2,Ferrari,ferrari,252,false
+8,Grand Prix de Monaco,3,McLaren,mercedes,184,false
+8,Grand Prix de Monaco,4,Mercedes,mercedes,96,false
+8,Grand Prix de Monaco,5,Aston Martin,mercedes,44,false
+8,Grand Prix de Monaco,6,RB,honda-rbpt,24,false
+8,Grand Prix de Monaco,7,Haas,ferrari,7,false
+8,Grand Prix de Monaco,8,Williams,mercedes,2,false
+8,Grand Prix de Monaco,9,Alpine,renault,2,false
+8,Grand Prix de Monaco,10,Kick Sauber,ferrari,0,false
+9,AWS Grand Prix du Canada,1,Red Bull,honda-rbpt,301,false
+9,AWS Grand Prix du Canada,2,Ferrari,ferrari,252,false
+9,AWS Grand Prix du Canada,3,McLaren,mercedes,212,false
+9,AWS Grand Prix du Canada,4,Mercedes,mercedes,124,false
+9,AWS Grand Prix du Canada,5,Aston Martin,mercedes,58,false
+9,AWS Grand Prix du Canada,6,RB,honda-rbpt,28,false
+9,AWS Grand Prix du Canada,7,Haas,ferrari,7,false
+9,AWS Grand Prix du Canada,8,Alpine,renault,5,false
+9,AWS Grand Prix du Canada,9,Williams,mercedes,2,false
+9,AWS Grand Prix du Canada,10,Kick Sauber,ferrari,0,false
+10,Aramco Gran Premio de España,1,Red Bull,honda-rbpt,330,false
+10,Aramco Gran Premio de España,2,Ferrari,ferrari,270,false
+10,Aramco Gran Premio de España,3,McLaren,mercedes,237,false
+10,Aramco Gran Premio de España,4,Mercedes,mercedes,151,false
+10,Aramco Gran Premio de España,5,Aston Martin,mercedes,58,false
+10,Aramco Gran Premio de España,6,RB,honda-rbpt,28,false
+10,Aramco Gran Premio de España,7,Alpine,renault,8,false
+10,Aramco Gran Premio de España,8,Haas,ferrari,7,false
+10,Aramco Gran Premio de España,9,Williams,mercedes,2,false
+10,Aramco Gran Premio de España,10,Kick Sauber,ferrari,0,false
+11,Qatar Airways Austrian GP,1,Red Bull,honda-rbpt,355,false
+11,Qatar Airways Austrian GP,2,Ferrari,ferrari,291,false
+11,Qatar Airways Austrian GP,3,McLaren,mercedes,268,false
+11,Qatar Airways Austrian GP,4,Mercedes,mercedes,196,false
+11,Qatar Airways Austrian GP,5,Aston Martin,mercedes,58,false
+11,Qatar Airways Austrian GP,6,RB,honda-rbpt,30,false
+11,Qatar Airways Austrian GP,7,Haas,ferrari,19,false
+11,Qatar Airways Austrian GP,8,Alpine,renault,9,false
+11,Qatar Airways Austrian GP,9,Williams,mercedes,2,false
+11,Qatar Airways Austrian GP,10,Kick Sauber,ferrari,0,false
+12,Qatar Airways British GP,1,Red Bull,honda-rbpt,373,false
+12,Qatar Airways British GP,2,Ferrari,ferrari,302,false
+12,Qatar Airways British GP,3,McLaren,mercedes,295,false
+12,Qatar Airways British GP,4,Mercedes,mercedes,221,false
+12,Qatar Airways British GP,5,Aston Martin,mercedes,68,false
+12,Qatar Airways British GP,6,RB,honda-rbpt,31,false
+12,Qatar Airways British GP,7,Haas,ferrari,27,false
+12,Qatar Airways British GP,8,Alpine,renault,9,false
+12,Qatar Airways British GP,9,Williams,mercedes,4,false
+12,Qatar Airways British GP,10,Kick Sauber,ferrari,0,false
+13,Hungarian GP,1,Red Bull,honda-rbpt,389,false
+13,Hungarian GP,2,McLaren,mercedes,338,false
+13,Hungarian GP,3,Ferrari,ferrari,322,false
+13,Hungarian GP,4,Mercedes,mercedes,241,false
+13,Hungarian GP,5,Aston Martin,mercedes,69,false
+13,Hungarian GP,6,RB,honda-rbpt,33,false
+13,Hungarian GP,7,Haas,ferrari,27,false
+13,Hungarian GP,8,Alpine,renault,9,false
+13,Hungarian GP,9,Williams,mercedes,4,false
+13,Hungarian GP,10,Kick Sauber,ferrari,0,false
+14,Rolex Belgian GP,1,Red Bull,honda-rbpt,408,false
+14,Rolex Belgian GP,2,McLaren,mercedes,366,false
+14,Rolex Belgian GP,3,Ferrari,ferrari,345,false
+14,Rolex Belgian GP,4,Mercedes,mercedes,266,false
+14,Rolex Belgian GP,5,Aston Martin,mercedes,73,false
+14,Rolex Belgian GP,6,RB,honda-rbpt,34,false
+14,Rolex Belgian GP,7,Haas,ferrari,27,false
+14,Rolex Belgian GP,8,Alpine,renault,11,false
+14,Rolex Belgian GP,9,Williams,mercedes,4,false
+14,Rolex Belgian GP,10,Kick Sauber,ferrari,0,false
+15,Heineken Dutch GP,1,Red Bull,honda-rbpt,434,false
+15,Heineken Dutch GP,2,McLaren,mercedes,404,false
+15,Heineken Dutch GP,3,Ferrari,ferrari,370,false
+15,Heineken Dutch GP,4,Mercedes,mercedes,276,false
+15,Heineken Dutch GP,5,Aston Martin,mercedes,74,false
+15,Heineken Dutch GP,6,RB,honda-rbpt,34,false
+15,Heineken Dutch GP,7,Haas,ferrari,27,false
+15,Heineken Dutch GP,8,Alpine,renault,13,false
+15,Heineken Dutch GP,9,Williams,mercedes,4,false
+15,Heineken Dutch GP,10,Kick Sauber,ferrari,0,false
+16,Pirelli Gran Premio D'Italia,1,Red Bull,honda-rbpt,446,false
+16,Pirelli Gran Premio D'Italia,2,McLaren,mercedes,438,false
+16,Pirelli Gran Premio D'Italia,3,Ferrari,ferrari,407,false
+16,Pirelli Gran Premio D'Italia,4,Mercedes,mercedes,292,false
+16,Pirelli Gran Premio D'Italia,5,Aston Martin,mercedes,74,false
+16,Pirelli Gran Premio D'Italia,6,RB,honda-rbpt,34,false
+16,Pirelli Gran Premio D'Italia,7,Haas,ferrari,28,false
+16,Pirelli Gran Premio D'Italia,8,Alpine,renault,13,false
+16,Pirelli Gran Premio D'Italia,9,Williams,mercedes,6,false
+16,Pirelli Gran Premio D'Italia,10,Kick Sauber,ferrari,0,false
+17,Qatar Airways Azerbaijan GP,1,McLaren,mercedes,476,false
+17,Qatar Airways Azerbaijan GP,2,Red Bull,honda-rbpt,456,false
+17,Qatar Airways Azerbaijan GP,3,Ferrari,ferrari,425,false
+17,Qatar Airways Azerbaijan GP,4,Mercedes,mercedes,309,false
+17,Qatar Airways Azerbaijan GP,5,Aston Martin,mercedes,82,false
+17,Qatar Airways Azerbaijan GP,6,RB,honda-rbpt,34,false
+17,Qatar Airways Azerbaijan GP,7,Haas,ferrari,29,false
+17,Qatar Airways Azerbaijan GP,8,Williams,mercedes,16,false
+17,Qatar Airways Azerbaijan GP,9,Alpine,renault,13,false
+17,Qatar Airways Azerbaijan GP,10,Kick Sauber,ferrari,0,false
+18,Singapore Airlines Singapore GP,1,McLaren,mercedes,516,false
+18,Singapore Airlines Singapore GP,2,Red Bull,honda-rbpt,475,false
+18,Singapore Airlines Singapore GP,3,Ferrari,ferrari,441,false
+18,Singapore Airlines Singapore GP,4,Mercedes,mercedes,329,false
+18,Singapore Airlines Singapore GP,5,Aston Martin,mercedes,86,false
+18,Singapore Airlines Singapore GP,6,RB,honda-rbpt,34,false
+18,Singapore Airlines Singapore GP,7,Haas,ferrari,31,false
+18,Singapore Airlines Singapore GP,8,Williams,mercedes,16,false
+18,Singapore Airlines Singapore GP,9,Alpine,renault,13,false
+18,Singapore Airlines Singapore GP,10,Kick Sauber,ferrari,0,false
+19,Pirelli United States GP,1,McLaren,mercedes,544,false
+19,Pirelli United States GP,2,Red Bull,honda-rbpt,504,false
+19,Pirelli United States GP,3,Ferrari,ferrari,496,false
+19,Pirelli United States GP,4,Mercedes,mercedes,344,false
+19,Pirelli United States GP,5,Aston Martin,mercedes,86,false
+19,Pirelli United States GP,6,Haas,ferrari,38,false
+19,Pirelli United States GP,7,RB,honda-rbpt,36,false
+19,Pirelli United States GP,8,Williams,mercedes,17,false
+19,Pirelli United States GP,9,Alpine,renault,13,false
+19,Pirelli United States GP,10,Kick Sauber,ferrari,0,false
+20,Gran Premio de la Ciudad de México,1,McLaren,mercedes,566,false
+20,Gran Premio de la Ciudad de México,2,Ferrari,ferrari,537,false
+20,Gran Premio de la Ciudad de México,3,Red Bull,honda-rbpt,512,false
+20,Gran Premio de la Ciudad de México,4,Mercedes,mercedes,366,false
+20,Gran Premio de la Ciudad de México,5,Aston Martin,mercedes,86,false
+20,Gran Premio de la Ciudad de México,6,Haas,ferrari,46,false
+20,Gran Premio de la Ciudad de México,7,RB,honda-rbpt,36,false
+20,Gran Premio de la Ciudad de México,8,Williams,mercedes,17,false
+20,Gran Premio de la Ciudad de México,9,Alpine,renault,14,false
+20,Gran Premio de la Ciudad de México,10,Kick Sauber,ferrari,0,false
+21,Lenovo Grande Prêmio de São Paulo,1,McLaren,mercedes,593,false
+21,Lenovo Grande Prêmio de São Paulo,2,Ferrari,ferrari,557,false
+21,Lenovo Grande Prêmio de São Paulo,3,Red Bull,honda-rbpt,544,false
+21,Lenovo Grande Prêmio de São Paulo,4,Mercedes,mercedes,382,false
+21,Lenovo Grande Prêmio de São Paulo,5,Aston Martin,mercedes,86,false
+21,Lenovo Grande Prêmio de São Paulo,6,Alpine,renault,49,false
+21,Lenovo Grande Prêmio de São Paulo,7,Haas,ferrari,46,false
+21,Lenovo Grande Prêmio de São Paulo,8,RB,honda-rbpt,44,false
+21,Lenovo Grande Prêmio de São Paulo,9,Williams,mercedes,17,false
+21,Lenovo Grande Prêmio de São Paulo,10,Kick Sauber,ferrari,0,false
+22,Heineken Silver Las Vegas GP,1,McLaren,mercedes,608,false
+22,Heineken Silver Las Vegas GP,2,Ferrari,ferrari,584,false
+22,Heineken Silver Las Vegas GP,3,Red Bull,honda-rbpt,555,false
+22,Heineken Silver Las Vegas GP,4,Mercedes,mercedes,425,false
+22,Heineken Silver Las Vegas GP,5,Aston Martin,mercedes,86,false
+22,Heineken Silver Las Vegas GP,6,Haas,ferrari,50,false
+22,Heineken Silver Las Vegas GP,7,Alpine,renault,49,false
+22,Heineken Silver Las Vegas GP,8,RB,honda-rbpt,46,false
+22,Heineken Silver Las Vegas GP,9,Williams,mercedes,17,false
+22,Heineken Silver Las Vegas GP,10,Kick Sauber,ferrari,0,false
+23,Qatar Airways Qatar GP,1,McLaren,mercedes,640,false
+23,Qatar Airways Qatar GP,2,Ferrari,ferrari,619,false
+23,Qatar Airways Qatar GP,3,Red Bull,honda-rbpt,581,false
+23,Qatar Airways Qatar GP,4,Mercedes,mercedes,446,false
+23,Qatar Airways Qatar GP,5,Aston Martin,mercedes,92,false
+23,Qatar Airways Qatar GP,6,Alpine,renault,59,false
+23,Qatar Airways Qatar GP,7,Haas,ferrari,54,false
+23,Qatar Airways Qatar GP,8,RB,honda-rbpt,46,false
+23,Qatar Airways Qatar GP,9,Williams,mercedes,17,false
+23,Qatar Airways Qatar GP,10,Kick Sauber,ferrari,4,false
+24,Etihad Airways Abu Dhabi GP,1,McLaren,mercedes,666,true
+24,Etihad Airways Abu Dhabi GP,2,Ferrari,ferrari,652,false
+24,Etihad Airways Abu Dhabi GP,3,Red Bull,honda-rbpt,589,false
+24,Etihad Airways Abu Dhabi GP,4,Mercedes,mercedes,468,false
+24,Etihad Airways Abu Dhabi GP,5,Aston Martin,mercedes,94,false
+24,Etihad Airways Abu Dhabi GP,6,Alpine,renault,65,false
+24,Etihad Airways Abu Dhabi GP,7,Haas,ferrari,58,false
+24,Etihad Airways Abu Dhabi GP,8,RB,honda-rbpt,46,false
+24,Etihad Airways Abu Dhabi GP,9,Williams,mercedes,17,false
+24,Etihad Airways Abu Dhabi GP,10,Kick Sauber,ferrari,4,false
