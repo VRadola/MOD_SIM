@@ -1,2 +1,5 @@
 # Extracted f1db dump (regenerated from data_raw/f1db-csv.zip by build_dataset.py)
 data_raw/f1db/
+
+# Delivery artifact (regenerate from f1_2024_data/)
+f1_2024_dataset.zip
