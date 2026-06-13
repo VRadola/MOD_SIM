@@ -15,6 +15,7 @@
 race_results <- read.csv("f1_2024_data/race_results.csv")
 qualifying   <- read.csv("f1_2024_data/qualifying_results.csv")
 circuits     <- read.csv("f1_2024_data/circuits.csv")
+sprint       <- read.csv("f1_2024_data/sprint_results.csv")
 
 # Spoj rezultata utrke i kvalifikacija (kljuc: krug + vozac).
 # suffixes razdvaja istoimene stupce (Position -> Position.race / .quali).
@@ -56,9 +57,17 @@ df$fastest_lap   <- as.factor(df$Set.Fastest.Lap)
 # (diskvalifikacija) tretiramo kao "kraj polja" -> bez bodova,
 # ali i dalje rangiraju zadnji u simulaciji.
 DNF_POS <- 20L
-df$finish_pos <- suppressWarnings(as.integer(df$Position.race))
-df$finish_pos[df$Position.race %in% c("NC", "DQ")] <- DNF_POS
-df$finish_pos[is.na(df$finish_pos)] <- DNF_POS
+poz_u_broj <- function(poz) {
+  v <- suppressWarnings(as.integer(poz))
+  v[poz %in% c("NC", "DQ")] <- DNF_POS   # nije klasificiran / diskvalificiran
+  v[is.na(v)] <- DNF_POS
+  v
+}
+df$finish_pos <- poz_u_broj(df$Position.race)
+
+# Sprint utrke (2024: 6 sprinteva) - ista logika, zasebni profil.
+sprint$finish_pos <- poz_u_broj(sprint$Position)
+n_sprint <- length(unique(sprint$Round))
 
 str(df[, c("Round", "Driver", "Team.race", "finish_pos",
            "Position.quali", "q3_sec", "pole_position", "fastest_lap")])
@@ -74,6 +83,15 @@ glavni_vozaci <- names(broj_utrka[broj_utrka >= min_utrka])
 df_glavni <- df[df$Driver %in% glavni_vozaci, ]
 profili <- split(df_glavni$finish_pos, df_glavni$Driver)
 
+# Sprint profili (samo glavni vozaci). Ako vozac nije vozio nijedan
+# sprint, dodijeli mu profil = zadnje mjesto (bez sprint bodova).
+sprint_glavni <- sprint[sprint$Driver %in% glavni_vozaci, ]
+sprint_profili <- split(sprint_glavni$finish_pos, sprint_glavni$Driver)
+for (v in glavni_vozaci) {
+  if (is.null(sprint_profili[[v]])) sprint_profili[[v]] <- DNF_POS
+}
+sprint_profili <- sprint_profili[names(profili)]   # isti redoslijed
+
 cat("\nUkljuceno vozaca:", length(profili),
     "| izostavljeno (zamjenski):",
     paste(setdiff(names(broj_utrka), glavni_vozaci), collapse = ", "), "\n")
@@ -85,33 +103,45 @@ n_vozaca <- length(profili)
 bodovanje <- rep(0, n_vozaca)
 bodovanje[1:10] <- c(25, 18, 15, 12, 10, 8, 6, 4, 2, 1)
 
+# Sprint bodovi: prvih 8 mjesta (8-7-6-5-4-3-2-1).
+bodovanje_sprint <- rep(0, n_vozaca)
+bodovanje_sprint[1:8] <- c(8, 7, 6, 5, 4, 3, 2, 1)
+
 # --- 5. Simulacija jedne sezone -----------------------------
-simuliraj_sezonu <- function(profili, n_utrka = 24) {
+# Jedno "natjecanje": svaki vozac izvuce rezultat iz svog profila,
+# rangira se, i dobije bodove po zadanom bodovnom sustavu.
+odradi_natjecanje <- function(profili, bodovi, vozaci, ukupni) {
+  izvucene <- sapply(profili, function(p) sample(p, 1))
+  poredak <- order(izvucene, runif(length(izvucene)))  # ties = nasumicno
+  ukupni[vozaci[poredak]] <- ukupni[vozaci[poredak]] + bodovi[seq_along(poredak)]
+  ukupni
+}
+
+simuliraj_sezonu <- function(profili, sprint_profili, n_utrka = 24, n_sprint = 6) {
   vozaci <- names(profili)
   ukupni_bodovi <- setNames(rep(0, length(vozaci)), vozaci)
 
+  # Glavne utrke
   for (utrka in 1:n_utrka) {
-    # Svaki vozac "izvuce" jedan stvarni rezultat iz svog profila.
-    izvucene <- sapply(profili, function(p) sample(p, 1))
-    # Rangiraj vozace; izjednacene pozicije razrijesi nasumicno.
-    poredak <- order(izvucene, runif(length(izvucene)))
-    bodovi_po_mjestu <- bodovanje[seq_along(poredak)]
-    ukupni_bodovi[vozaci[poredak]] <-
-      ukupni_bodovi[vozaci[poredak]] + bodovi_po_mjestu
+    ukupni_bodovi <- odradi_natjecanje(profili, bodovanje, vozaci, ukupni_bodovi)
+  }
+  # Sprint utrke
+  for (s in seq_len(n_sprint)) {
+    ukupni_bodovi <- odradi_natjecanje(sprint_profili, bodovanje_sprint, vozaci, ukupni_bodovi)
   }
   ukupni_bodovi
 }
 
 # Test - jedna sezona
 set.seed(42)
-cat("\nPrimjer jedne simulirane sezone:\n")
-print(sort(simuliraj_sezonu(profili), decreasing = TRUE))
+cat("\nPrimjer jedne simulirane sezone (utrke + sprintevi):\n")
+print(sort(simuliraj_sezonu(profili, sprint_profili, n_sprint = n_sprint), decreasing = TRUE))
 
 # --- 6. Mnogo simulacija ------------------------------------
 set.seed(42)
 n_simulacija <- 50000   # povecaj za stabilnije procjene (npr. 1e6)
 
-rezultati <- replicate(n_simulacija, simuliraj_sezonu(profili))
+rezultati <- replicate(n_simulacija, simuliraj_sezonu(profili, sprint_profili, n_sprint = n_sprint))
 # rezultati: matrica [vozac x simulacija]
 
 # Pobjednik svake sezone = vozac s najvise bodova.
